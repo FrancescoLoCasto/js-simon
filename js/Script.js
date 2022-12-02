@@ -5,3 +5,7 @@ const button = document.getElementById('simonButton');
 
 
 simonButton.innerHTML = `#(${counter})`
+
+simonButton.addEventListener('click', function(){
+
+})
