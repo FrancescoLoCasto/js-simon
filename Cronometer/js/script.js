@@ -15,7 +15,14 @@ start.addEventListener('click', function (){
    },100)
 
    pause.addEventListener('click', function (){
+      clearInterval(timer)
+      tempo.innerHTML = counter
 
+   })
+
+   reset.addEventListener('click', function (){
+      counter = 0
+      tempo.innerHTML = counter
    })
 
 
