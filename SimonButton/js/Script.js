@@ -10,6 +10,8 @@ simonButton.addEventListener('click', function(){
 
    if(counter < 10){
       counter++
+   }else {
+      
    }
 
 })
