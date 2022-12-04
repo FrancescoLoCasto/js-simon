@@ -9,8 +9,14 @@ let counter = 0
 start.addEventListener('click', function (){
 
    const timer = setInterval(() =>{
-
+      counter++
+      console.log(counter)
+      tempo.innerHTML = counter
    },100)
+
+   pause.addEventListener('click', function (){
+
+   })
 
 
 })
