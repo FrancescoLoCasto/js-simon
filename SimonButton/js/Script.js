@@ -2,4 +2,9 @@
 
 const button = document.getElementById('button');
 
+// let create
+
+let counter = 0;
+let gamefinish = false
+
 
