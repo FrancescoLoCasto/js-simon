@@ -18,7 +18,15 @@ button.addEventListener("click", function () {
          button.innerHTML = `Play ${counter}`;
        }  else {
          gamefinish=true
-   }
+
+         setTimeout(() => {
+            gamefinish=false;
+            counter = 0;
+            button.innerHTML = `Play ${counter}`;
+          }, 4000)
+
+          }
+         }
 
 })
 
