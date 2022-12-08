@@ -1,17 +1,5 @@
-let counter = 0;
+// Creation of const button
+
+const button = document.getElementById('button');
 
 
-const button = document.getElementById('simonButton');
-
-
-simonButton.innerHTML = `#(${counter})`
-
-simonButton.addEventListener('click', function(){
-
-   if(counter < 10){
-      counter++
-   }else {
-      
-   }
-
-})
