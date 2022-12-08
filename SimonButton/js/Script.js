@@ -19,6 +19,8 @@ button.addEventListener("click", function () {
        }  else {
          gamefinish=true
 
+         // SetTimeout creation 
+
          setTimeout(() => {
             gamefinish=false;
             counter = 0;
