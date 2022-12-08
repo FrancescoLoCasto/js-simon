@@ -12,6 +12,13 @@ let gamefinish = false
 
 button.addEventListener("click", function () {
 
+   if(!gamefinish) {
+      if (counter < 10){
+         counter++;
+         button.innerHTML = `Play ${counter}`;
+       }
+   }
+
 })
 
 
