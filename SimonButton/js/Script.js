@@ -8,3 +8,10 @@ let counter = 0;
 let gamefinish = false
 
 
+// Create addEventListener button
+
+button.addEventListener("click", function () {
+
+})
+
+
